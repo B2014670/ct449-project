@@ -1,9 +1,11 @@
 const express = require('express');
 const cors = require('cors');
+const ApiError = require('./app/api-errors');
+const shopRouter = require('./app/routes/shop.route');
+const dotenv = require('dotenv');
+dotenv.config();
 
 const app = express();
-const shopRouter = require('./app/routes/shop.route');
-
 
 app.use(cors());
 app.use(express.json());
@@ -24,7 +26,5 @@ app.use((err, req, res, next) => {
     });
 });
 
-
-// app.js
 
 module.exports = app;
