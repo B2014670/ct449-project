@@ -2,10 +2,12 @@ const express = require('express');
 const cors = require('cors');
 
 const app = express();
+const shopRouter = require('./app/routes/shop.route');
 
 
 app.use(cors());
 app.use(express.json());
+app.use('/api/shop', shopRouter);
 
 app.get('/', (req, res) => {
     res.json({ message: 'Welcome to shop application' });
