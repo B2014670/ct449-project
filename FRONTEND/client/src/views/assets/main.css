@@ -1,0 +1,13 @@
+/* .selloff {
+    font-weight: 600;
+    position: absolute;
+    margin-left: 68%;
+    flex-direction: row-reverse;
+} */
+.product-item {
+    -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.22);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.22);
+}
+li {
+    list-style: none;
+}

@@ -28,7 +28,7 @@ class ProductService {
 
         const { format, addDays } = require('date-fns');
 
-        // Get the current date and format it as 'yyyy-MM-dd HH:mm:ss'
+        // Get the current date and format it as 'YYYY-MM-DD'
         const currentDate = new Date();
         const formattedDate = format(currentDate, 'yyyy-MM-dd HH:mm:ss');
         product.createDate = formattedDate;

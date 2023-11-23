@@ -1,0 +1,26 @@
+.navbar,
+footer {
+  background-color: #5dc6ad;
+}
+
+.Cart-UpdateOrder-Number {
+  display: flex;
+  margin: 0 6px;
+  input {
+    width: 40px;
+    text-align: center;
+    background-color: #f8f9fa;
+    border-left: none;
+    border-right: none;
+    border-color: rgba(0, 0, 0, 0.09);
+    outline: none;
+  }
+  button:nth-child(3) {
+    background-color: #f8f9fa;
+    border-color: rgba(0, 0, 0, 0.09);
+  }
+  button:nth-child(1) {
+    background-color: #f8f9fa;
+    border-color: rgba(0, 0, 0, 0.09);
+  }
+}

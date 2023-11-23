@@ -11,6 +11,7 @@ class AuthService {
             email: payload.email,
             password: payload.password ? bcrypt.hashSync(payload.password, SALT_ROUNDS) : '',
             phone: payload.phone,
+
             address: payload.address,
         };
         // Remove undefined fields
@@ -33,6 +34,7 @@ class AuthService {
             return null;
         }
     }
+
     async createUser(user) {
         try {
             let data = this.extractUserData(user);

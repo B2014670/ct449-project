@@ -1,12 +1,12 @@
 {
-  "name": "shop",
+  "name": "vegetableshop",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
     "start": "nodemon server.js"
   },
-  "author": "",
+  "author": "luan",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.1",
@@ -17,14 +17,13 @@
     "express-session": "^1.17.3",
     "express-ws": "^5.0.2",
     "jsonwebtoken": "^9.0.1",
-    "mongodb": "^5.8.0",
+    "lowdb": "^6.0.1",
+    "mongodb": "^5.7.0",
     "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.0.1",
     "passport": "^0.6.0",
     "passport-google-oauth20": "^2.0.0",
     "rand-token": "^1.0.1",
     "socket.io": "^4.7.2"
-  },
-  "devDependencies": {
-    "nodemon": "^3.0.1"
   }
 }
